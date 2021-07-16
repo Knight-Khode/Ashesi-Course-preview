@@ -660,6 +660,7 @@ ul{
         height: 70vh;
         display: flex;
         flex-direction: column;
+    }
 }
 
 @media (max-width: 530px){
@@ -916,6 +917,5 @@ ul{
 @media (max-width: 290px){
     .preview-nav-content{
         flex-direction: column;
-    }
-    
+    }   
 }
