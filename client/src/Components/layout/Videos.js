@@ -6,7 +6,7 @@ import prof from '../../img/prof.jpg'
 const Videos = () => {
     return (
         <div className="videos">
-            <h1>Lets help you prepare by watching thsese videos</h1>
+            <h1>Lets help you prepare by watching these videos</h1>
                 <div className="video-content">
                     <div className="video-box">
                         <div className="video-img">
