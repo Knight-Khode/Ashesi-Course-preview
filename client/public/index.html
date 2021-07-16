@@ -18,7 +18,71 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-   
-    
   </body>
+  <script>
+     const drop1 = document.querySelector('.course-drop4')
+      const drop2 = document.querySelector('.course-drop1')
+      const drop3 = document.querySelector('.course-drop2')
+      const drop4 = document.querySelector('.course-drop3')
+      const info1 = document.querySelector('.info1')
+      const info2 = document.querySelector('.info2')
+      const info3 = document.querySelector('.info3')
+      const info4 = document.querySelector('.info4')
+      const plus1 = document.querySelector('.plus1')
+      const plus2 = document.querySelector('.plus2')
+      const plus3 = document.querySelector('.plus3')
+      const plus4 = document.querySelector('.plus4')
+
+      drop1.addEventListener('click',(e)=>{
+        if(plus1.className=='plus1'){
+          plus1.textContent='-'
+          info1.style.display='block'
+          plus1.className ='minus1'
+        }else{
+          plus1.textContent='+'
+          info1.style.display='none'
+          plus1.className='plus1'
+        }
+        e.preventDefault()
+      })
+
+      drop2.addEventListener('click',(e)=>{
+        if(plus2.className=='plus2'){
+          plus2.textContent='-'
+          info2.style.display='block'
+          plus2.className ='minus2'
+        }else{
+          plus2.textContent='+'
+          info2.style.display='none'
+          plus2.className='plus2'
+        }
+        e.preventDefault()
+      })
+
+      drop3.addEventListener('click',(e)=>{
+        if(plus3.className=='plus3'){
+          plus3.textContent='-'
+          info3.style.display='block'
+          plus3.className ='minus3'
+        }else{
+          plus3.textContent='+'
+          info3.style.display='none'
+          plus3.className='plus3'
+        }
+        e.preventDefault()
+      })
+
+      drop4.addEventListener('click',(e)=>{
+        if(plus4.className=='plus4'){
+          plus4.textContent='-'
+          info4.style.display='block'
+          plus4.className ='minus4'
+        }else{
+          plus4.textContent='+'
+          info4.style.display='none'
+          plus4.className='plus4'
+        }
+        e.preventDefault()
+      })
+  </script>
 </html>

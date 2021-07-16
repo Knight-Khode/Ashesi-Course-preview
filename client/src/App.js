@@ -1,11 +1,13 @@
+import React,{Fragment} from 'react'
+import CoursePreview from './Components/CoursePreview';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div>
-
-    </div>
-  );
+    <Fragment>
+      <CoursePreview/>
+    </Fragment>
+  )
 }
 
-export default App;
+export default App
